@@ -2,7 +2,7 @@ export const g = (n) => n + 1;
 export const f = (n) => n * 2;
 
 const wait = (time) =>
-  new Promise((resolve, _) => setTimeout(resolve, time));
+  new Promise((resolve, reject) => setTimeout(resolve, time));
 
 console.log('start');
 
