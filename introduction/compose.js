@@ -11,3 +11,4 @@ export const wait = (time) =>
 //   .then(g)
 //   .then(f)
 //   .then((value) => console.log(value));
+
